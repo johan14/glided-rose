@@ -6,3 +6,7 @@ There are JUnit tests inside the tests folder, regarding all the corner testcase
 ![alt text](https://github.com/johan14/glided-rose/blob/9aa69994cadff043cb3398c6cfc4c70040c90e6d/uml%20diagram.png?raw=true) 
 
 Two main classes are **GeneralProductUtils** and **SpecialProductUtils** which utilize item type and based on that the appropriate behaviour is applied. The JUnit tests are written for every use case and you can test them by running **com.gildedrose.GildedRoseTest** class from the test folder. 
+
+**Assumptions:**
+* The initial Quality of an item is never negative
+* The initial Quality of an item is never more than 50 (except "Sulfuras" product type)
